@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Define here the models for your scraped items
-#
+# 存取爬取所需数据
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
 
