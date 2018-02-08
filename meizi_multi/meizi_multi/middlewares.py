@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Define here the models for your spider middleware
-#
+#中间件文件，此次项目暂未使用到
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
