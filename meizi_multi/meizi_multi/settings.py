@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 项目配置文件
 # Scrapy settings for meizi_multi project
 #
 # For simplicity, this file contains only settings considered important or
@@ -13,7 +13,7 @@ BOT_NAME = 'meizi_multi'
 
 SPIDER_MODULES = ['meizi_multi.spiders']
 NEWSPIDER_MODULE = 'meizi_multi.spiders'
-
+# 设置图片保存路径
 IMAGES_STORE = 'E:/meizi/pure/'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'meizi_multi (+http://www.yourdomain.com)'
@@ -64,6 +64,7 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
+# 将ImagesPipeline优先级设置为1
 ITEM_PIPELINES = {
    'meizi_multi.pipelines.MeiziMultiPipeline': 300,
    'scrapy.pipelines.images.ImagesPipeline': 1
